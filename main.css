@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     text-align: center;
     color: white;
@@ -7,4 +8,13 @@ h1 {
 #banner {
     background-color: #93d8cc;
     background-size: 100px;
+=======
+h1 {
+    text-align: center;
+    text-decoration-color: white;
+}
+
+#banner {
+    background-color: #93d8cc;
+>>>>>>> origin/master
 }
