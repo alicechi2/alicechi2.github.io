@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#banner {
+    background-color: #93d8cc;
+    background-size: 100px;
+}
