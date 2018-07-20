@@ -2,7 +2,7 @@
     text-align: center;
     color: white;
     font-family: 'Gaegu', cursive;
-    font-size: 55px;
+    font-size: 7rem;
 }
 
 #banner img {
@@ -18,28 +18,64 @@
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 3rem;
 }
 
 #banner {
     position: static;
     background-color: #add2d6;
+    /*
     margin-bottom: 0;
+    */
 }
 
-#navbar {
+.navbar {
     position: sticky;
     background: white;
     
 }
 
-#navbar a {
-    color: black;
+.navbar .navcomponent {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #add2d6 !important;
 }
 
-#content {
-    position: sticky;
-    background: white;
+#contact {
+    position: static;
+    background-color: #add2d6;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    font-size: 7rem;
+}
+
+#contact p {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+#contact ul {
+    text-align: center;
+}
+
+#contact img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#footer {
+    background-color: white;
+}
+
+#footer p {
+    text-align: center;
+    color: #add2d6;
+    font-family: 'Gaegu', cursive;
 }
