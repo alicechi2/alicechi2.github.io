@@ -1,10 +1,45 @@
-h1 {
+#banner h1 {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-family: 'Gaegu', cursive;
+    font-size: 55px;
+}
+
+#banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30rem;
+    width: 30rem;
+}
+
+#banner p {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
 
 #banner {
-    background-color: #93d8cc;
-    background-size: 100px;
+    position: static;
+    background-color: #add2d6;
+    margin-bottom: 0;
+}
+
+#navbar {
+    position: sticky;
+    background: white;
+    
+}
+
+#navbar a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+#content {
+    position: sticky;
+    background: white;
 }
