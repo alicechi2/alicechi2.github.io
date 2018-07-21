@@ -29,10 +29,14 @@
     */
 }
 
-.navbar {
-    position: sticky;
+nav {
+    position: sticky !important;
     background: white;
     
+}
+
+.navbar .nav {
+    text-align: center;
 }
 
 .navbar .navcomponent {
@@ -40,6 +44,18 @@
     font-weight: bold;
     font-size: 2rem;
     color: #add2d6 !important;
+}
+
+#about-me {
+    background-color: white;
+}
+
+#art-preview {
+    background-color: #add2d6;
+}
+
+#projects-preview {
+    background-color: white;
 }
 
 #contact {
@@ -61,11 +77,16 @@
     font-size: 3rem;
 }
 
+#contact .pointinggraphic {
+    height: 10rem;
+    width: 15rem;
+}
+
 #contact ul {
     text-align: center;
 }
 
-#contact img {
+#contact .contact-list img {
     height: 10rem;
     width: 10rem;
 }
@@ -78,4 +99,5 @@
     text-align: center;
     color: #add2d6;
     font-family: 'Gaegu', cursive;
+    font-size: 3rem;
 }
