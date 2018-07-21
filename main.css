@@ -46,16 +46,15 @@ nav {
     color: #add2d6 !important;
 }
 
-#about-me {
+#section {
     background-color: white;
 }
 
-#art-preview {
-    background-color: #add2d6;
-}
-
-#projects-preview {
-    background-color: white;
+#section h1{
+    color: #add2d6;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 6rem;
 }
 
 #contact {

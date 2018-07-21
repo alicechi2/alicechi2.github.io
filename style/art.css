@@ -1,0 +1,130 @@
+#header {
+    background-color: rgb(211, 193, 199);
+    margin-bottom: 0;
+}
+
+#header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+    background: white;  
+}
+
+.navbar .nav {
+    text-align: center;
+}
+
+.navbar .navcomponent {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(230, 218, 222) !important;
+}
+
+#section {
+    background-color: white;
+}
+
+#section h1 {
+    text-align: center;
+    color: rgb(156, 138, 144);
+    font-family: 'Gaegu', cursive;
+    font-size: 7rem;
+}
+
+#extras {
+    background-color: white;
+}
+
+#extras h1 {
+    text-align: center;
+    color: rgb(156, 138, 144);
+    font-family: 'Gaegu', cursive;
+    font-size: 7rem;
+}
+
+#extras img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 25rem;
+    width: 25rem;
+}
+
+#extras .row {
+    display: flex;
+}
+
+#extras .column {
+    flex: 50%;
+}
+
+#extras .left {
+    margin-left: 20rem;
+}
+
+#extras .right {
+    margin-right: 20rem;
+}
+
+#extras .column h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    color: rgb(156, 138, 144);
+}
+
+@media screen and (max-width: 600px) {
+    #extras .column {
+        width: 100%;
+    }
+}
+
+#contact {
+    position: static;
+    background-color: rgb(211, 193, 199);
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    font-size: 7rem;
+}
+
+#contact p {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+#contact .pointinggraphic {
+    height: 10rem;
+    width: 15rem;
+}
+
+#contact ul {
+    text-align: center;
+}
+
+#contact .contact-list img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#footer {
+    background-color: white;
+}
+
+#footer p {
+    text-align: center;
+    color: rgb(156, 138, 144);
+    font-family: 'Gaegu', cursive;
+    font-size: 3rem;
+}
