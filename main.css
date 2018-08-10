@@ -54,6 +54,33 @@
     font-size: 6rem;
 }
 
+.aboutmegrid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .aboutmegrid {
+      display: block;
+    }
+  }
+
+.aboutmegrid img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.aboutmegrid .description {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+}
+
 #contact {
     position: static;
     background-color: #add2d6;
