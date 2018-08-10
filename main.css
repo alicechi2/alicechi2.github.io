@@ -29,14 +29,11 @@
     */
 }
 
-nav {
+.navbar {
     position: sticky !important;
+    top: 0;
     background: white;
     
-}
-
-.navbar .nav {
-    text-align: center;
 }
 
 .navbar .navcomponent {
