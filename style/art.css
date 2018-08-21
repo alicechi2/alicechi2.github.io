@@ -1,28 +1,25 @@
+/*
+original pink color: rgb(211, 193, 199)
+dusty pink color: rgb(156, 138, 144)
+*/
+
 #header {
-    background-color: rgb(211, 193, 199);
+    background-color: #add2d6;
     margin-bottom: 0;
 }
 
-#header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-nav {
-    background: white;  
-}
-
-.navbar .nav {
-    text-align: center;
+.navbar {
+    position: sticky !important;
+    top: 0;
+    background: white;
+    
 }
 
 .navbar .navcomponent {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    color: rgb(230, 218, 222) !important;
+    color: #add2d6 !important;
 }
 
 #section {
@@ -31,9 +28,10 @@ nav {
 
 #section h1 {
     text-align: center;
-    color: rgb(156, 138, 144);
-    font-family: 'Gaegu', cursive;
-    font-size: 7rem;
+    color: #add2d6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    padding-bottom: 5rem;
 }
 
 #extras {
@@ -42,41 +40,36 @@ nav {
 
 #extras h1 {
     text-align: center;
-    color: rgb(156, 138, 144);
-    font-family: 'Gaegu', cursive;
-    font-size: 7rem;
+    color: #add2d6;
+    font-family: 'RaleWay', sans-serif;
+    font-size: 6rem;
+    padding-bottom: 5rem;
 }
 
 #extras img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
     height: 25rem;
     width: 25rem;
 }
 
 #extras .row {
     display: flex;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    justify-content: space-around;
 }
 
 #extras .column {
-    flex: 50%;
-}
-
-#extras .left {
-    margin-left: 20rem;
-}
-
-#extras .right {
-    margin-right: 20rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #extras .column h2 {
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 3rem;
-    color: rgb(156, 138, 144);
+    font-family: "Gaegu", cursive;
+    font-size: 4rem;
+    color: #add2d6;
 }
 
 @media screen and (max-width: 600px) {
@@ -87,7 +80,7 @@ nav {
 
 #contact {
     position: static;
-    background-color: rgb(211, 193, 199);
+    background-color: #add2d6;
 }
 
 #contact h1{
@@ -100,8 +93,8 @@ nav {
 #contact p {
     text-align: center;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
 }
 
 #contact .pointinggraphic {
@@ -124,7 +117,7 @@ nav {
 
 #footer p {
     text-align: center;
-    color: rgb(156, 138, 144);
+    color: #add2d6;
     font-family: 'Gaegu', cursive;
     font-size: 3rem;
 }

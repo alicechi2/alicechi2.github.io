@@ -52,13 +52,16 @@
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 6rem;
+    padding-bottom: 5rem;
 }
 
 .aboutmegrid {
     display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
-.col {
+.aboutmegrid .col {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -77,6 +80,37 @@
 }
 
 .aboutmegrid .description {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+}
+
+.artgrid {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15rem;
+    margin-right: 15rem;
+} 
+
+.artgrid .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .artgrid {
+      display: block;
+    }
+  }
+
+.artgrid img {
+    height: 25rem;
+    width: 25rem;
+}
+
+.artgrid .description {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
