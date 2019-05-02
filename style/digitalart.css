@@ -152,6 +152,9 @@ dusty pink color: rgb(156, 138, 144)
     flex-direction: col;
 } 
 
+.artgrid .row{
+    margin-top: 5rem;
+}
 
 @media (max-width: 400px) {
     .artgrid {
