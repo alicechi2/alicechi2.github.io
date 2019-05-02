@@ -8,6 +8,28 @@ dusty pink color: rgb(156, 138, 144)
     margin-bottom: 0;
 }
 
+#banner h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    font-size: 7rem;
+}
+
+#banner p {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+#banner {
+    position: static;
+    background-color: #add2d6;
+    /*
+    margin-bottom: 0;
+    */
+}
+
 .navbar {
     position: sticky !important;
     top: 0;
@@ -120,4 +142,23 @@ dusty pink color: rgb(156, 138, 144)
     color: #add2d6;
     font-family: 'Gaegu', cursive;
     font-size: 3rem;
+}
+
+.artgrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: col;
+} 
+
+
+@media (max-width: 400px) {
+    .artgrid {
+      display: block;
+    }
+  }
+
+.artgrid img {
+    height: 50rem;
 }
