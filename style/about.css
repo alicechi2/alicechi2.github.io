@@ -6,7 +6,7 @@
 }
 
 .navbar .navcomponent {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2rem;
     color: #add2d6 !important;
@@ -27,11 +27,12 @@
 #contact p {
     text-align: center;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }
 
 #contact .pointinggraphic {
+    margin-top: 3rem;
     height: 10rem;
     width: 15rem;
 }
