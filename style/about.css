@@ -31,5 +31,7 @@
     position: static;
     background-attachment: fixed;
     background-color: white;
-    padding: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 10rem;
 }
