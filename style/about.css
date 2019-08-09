@@ -1,58 +1,35 @@
-.navbar {
-    position: sticky !important;
-    top: 0;
-    background: white;
-    
-}
-
-.navbar .navcomponent {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #add2d6 !important;
-}
-
-#contact {
-    position: static;
-    background-color: #add2d6;
-}
-
-#contact h1{
-    text-align: center;
-    color: white;
+#about h1 {
+    text-align: left;
+    color: #add2d6;
     font-family: 'Gaegu', cursive;
     font-size: 7rem;
 }
 
-#contact p {
-    text-align: center;
-    color: white;
+#about #profile {
+    /* display: block; */
+    margin: 5rem;
+    float: left;
+    height: 30rem;
+    width: 30rem;
+}
+
+#about p {
+    text-align: left;
+    color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
-#contact .pointinggraphic {
-    margin-top: 3rem;
-    height: 10rem;
-    width: 15rem;
-}
-
-#contact ul {
-    text-align: center;
-}
-
-#contact .contact-list img {
-    height: 10rem;
-    width: 10rem;
-}
-
-#footer {
-    background-color: white;
-}
-
-#footer p {
+#about h2 {
     text-align: center;
     color: #add2d6;
     font-family: 'Gaegu', cursive;
-    font-size: 3rem;
+    font-size: 5rem;
+}
+
+#about {
+    position: static;
+    background-attachment: fixed;
+    background-color: white;
+    padding: 10rem;
 }

@@ -22,7 +22,10 @@
 }
 
 #banner {
+    /*
     position: static;
+    */
+    background-attachment: fixed;
     background-color: #add2d6;
     /*
     margin-bottom: 0;
