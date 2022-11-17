@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MyPortfolio Bootstrap Template - Works</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio - v4.9.1
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-right d-flex justify-content-between">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <!-- <li><a href="#">Full Portfolio</a></li> -->
+            <li><a href="assets/AliceChiResume2022.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-center d-md-block">
+          <a href="https://www.facebook.com/alicia.feliciaa target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-facebook"></i></button>  
+          </a>
+          <a href="https://www.instagram.com/alchoodraws/ target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-instagram"></i></button>  
+          </a>
+          <a href="https://www.linkedin.com/in/alicechi/ target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-linkedin"></i></button>  
+          </a>
+          <a href="https://github.com/alicechi2 target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-github"></i></button>  
+          </a>
+          <button type="button" class="btn btn-lg btn-light rounded-circle" data-toggle="tooltip" data-placement="top" title="Copy Discord User" onclick="getDiscordUsername()">
+            <i class="bi bi-discord"></i></button>
+          <button type="button" class="btn btn-lg btn-light rounded-circle" data-toggle="tooltip" data-placement="top" title="Copy Email: alicechi2@gmail.com" onclick="getEmail()">
+            <i class="bi bi-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid col-1" src="assets/img/favicon.png">Home.</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ======= Works Section ======= -->
+    <section class="section site-portfolio" id="portfolio-start">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <h2>Alice Chi Digital Media</h2>
+          </div>
+          <!-- <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+            <div>
+              <a href="works.html"><h4 class="h4">See More Here <i class="bi bi-arrow-right"></i></h4></a>
+            </div>
+          </div> -->
+        </div>
+        <div  data-aos="fade-up" data-aos-delay="200">
+          <div class="d-flex flex-wrap mb-5 align-items-start"><!-- Start image gallery row -->
+            <div class="col-xs-12 col-sm-6 col-md-4 px-2"><!-- Start col -->
+              <div class="item mb-4"><!-- Item 1 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('kang-sae-byeok')">
+                  <div class="work-info">
+                    <h3>Procreate</h3>
+                    <span>2021</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/kang-sae-byeok.png">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 2 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('bee')">
+                  <div class="work-info">
+                    <h3>Procreate</h3>
+                    <span>2020</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/bee.gif">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 4 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('girum')">
+                  <div class="work-info">
+                    <h3>Procreate</h3>
+                    <span>2020</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/girum.png">
+                </div>
+              </div>
+            </div><!-- End col -->
+            <div class="col-xs-12 col-sm-6 col-md-4 px-2"><!-- Start col -->
+              <div class="item mb-4"><!-- Item 1 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('polaroidman')">
+                  <div class="work-info">
+                    <h3>Adobe Illustrator</h3>
+                    <span>Laser Cut Iridescent Acrylic, 2020</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/polaroidman.HEIC">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 2 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('koi')">
+                  <div class="work-info">
+                    <h3>Adobe Illustrator</h3>
+                    <span>2019</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/koi.PNG">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 3 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('v')">
+                  <div class="work-info">
+                    <h3>Clip Studio Paint</h3>
+                    <span>2015</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/v.JPG">
+                </div>
+              </div>
+            </div><!-- End col -->
+            <div class="col-xs-12 col-sm-6 col-md-4 px-2"><!-- Start col -->
+              <div class="item mb-4"><!-- Item 1 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('maurice')">
+                  <div class="work-info">
+                    <h3>Procreate</h3>
+                    <span>2022</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/maurice.png">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 2 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('InvisibleCities-2')">
+                  <div class="work-info">
+                    <h3>SketchUp</h3>
+                    <span>2020</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/InvisibleCities-2.jpg">
+                </div>
+              </div>
+              <div class="item mb-4"><!-- Item 3 -->
+                <div class="item-wrap fancybox" onclick="openModal();getImage('puyo')">
+                  <div class="work-info">
+                    <h3>Procreate</h3>
+                    <span>2019</span>
+                  </div>
+                  <img class="img-fluid" src="assets/img/digital/puyo.png">
+                </div>
+              </div>
+            </div><!-- End col -->
+          </div><!-- End image gallery row -->
+          <div class="col-md-12 text-start text-lg-end" data-aos="fade-up">
+            <div>
+              <a href="#navbar"><h4 class="h4">Back to the top <i class="bi bi-arrow-up"></i></h4></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section><!-- End  Works Section -->
+    <div id="modal" class="modal">
+      <span class="close cursor" onclick="closeModal()"><i class="bi bi-x"></i></span>
+      <div class="modal-content  modal-background">
+        <div class="modal-pic modal-background" id="kang-sae-byeok">
+          <img src="assets/img/digital/kang-sae-byeok.png" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Procreate ,2021</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="bee">
+          <img src="assets/img/digital/bee.gif" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Procreate, 2020</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="girum">
+          <img src="assets/img/digital/girum.png" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Procreate, 2020</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="polaroidman">
+          <img src="assets/img/digital/polaroidman.HEIC" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Adobe Illustrator/Laser Cut Iridescent Acrylic, 2020</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="koi">
+          <img src="assets/img/digital/koi.PNG" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Adobe Illustrator, 2019</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="v">
+          <img src="assets/img/digital/v.JPG" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Clip Studio Paint, 2019</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="maurice">
+          <img src="assets/img/digital/maurice.png" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Procreate, 2020</p>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="InvisibleCities-2">
+          <div>
+            <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+              <iframe class="embed-responsive-item"  width="560" height="315" src="https://www.youtube.com/embed/22ALkOWIysU" allow="accelerometer; autoplay;" allowfullscreen></iframe>
+            </div>
+            <div class="p-2 modal-background caption-container">
+              <h4>Invisble Cities</h4>
+              <p>SketchUp 3d Modeling, 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-pic modal-background" id="puyo">
+          <img src="assets/img/digital/puyo.png" style="width:100%">
+          <div class="p-2 modal-background caption-container">
+            <p>Procreate, 2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+          -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="col-md-6 d-inline-block text-md-center">
+          <a href="https://www.facebook.com/alicia.feliciaa target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-facebook"></i></button>  
+          </a>
+          <a href="https://www.instagram.com/alchoodraws/ target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-instagram"></i></button>  
+          </a>
+          <a href="https://www.linkedin.com/in/alicechi/ target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-linkedin"></i></button>  
+          </a>
+          <a href="https://github.com/alicechi2 target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-circle"><i class="bi bi-github"></i></button>  
+          </a>
+          <button type="button" class="btn btn-lg btn-light rounded-circle" data-toggle="tooltip" data-placement="top" title="Copy Discord User" onclick="getDiscordUsername()">
+            <i class="bi bi-discord"></i></button>
+          <button type="button" class="btn btn-lg btn-light rounded-pill" data-toggle="tooltip" data-placement="top" title="Copy Email: alicechi2@gmail.com" onclick="getEmail()">
+            <i class="bi bi-envelope"></i>
+          </button>
+          <a href="assets/AliceChiResume2022.pdf target="_blank" rel="noopener noreferrer"">
+            <button type="button" class="btn btn-lg btn-light rounded-pill">Resume</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
